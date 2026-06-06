@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLD英語学習 - TOEIC対策学習アプリ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="toeic_vocab.js"></script>
+    <script src="data.js"></script>
+</head>
+<body>
+    <div class="app-wrapper">
+        <!-- ========== ページヘッダー ========== -->
+        <div class="page-header">
+            <div class="page-title">✨ GOLD英語学習</div>
+            <p class="page-description">
+                TOEIC 600点突破を目指すあなたへ。<br>
+                句動詞、語彙・文法、発音記号を効率的に学習できる<br>
+                スマートフォン対応の英語学習アプリです。
+            </p>
+        </div>
+        
+        <!-- ========== メニュー画面 ========== -->
+        <div id="menuScreen" class="menu-screen active">
+            <div class="menu-container">
+                <div class="app-title">📚 セクション選択</div>
+                
+                <!-- 句動詞 -->
+                <div class="category-section">
+                    <div class="category-title" onclick="toggleSection(this)"><span>句動詞</span><span class="toggle-arrow">▼</span></div>
+                    <div class="section-buttons" style="display: flex; flex-direction: column; gap: 10px;">
+                        <button class="section-btn" onclick="startSection('Put')">Put 関連</button>
+                        <button class="section-btn" onclick="startSection('Run')">Run 関連</button>
+                    </div>
+                </div>
+                
+                <!-- 語彙・文法 -->
+                <div class="category-section">
+                    <div class="category-title" onclick="toggleSection(this)"><span>語彙・文法</span><span class="toggle-arrow">▼</span></div>
+                    <div class="section-buttons" style="display: flex; flex-direction: column; gap: 10px;">
+                        <button class="section-btn" onclick="startSection('接頭辞（語幹識別）')">接頭辞（語幹識別）</button>
+                        <button class="section-btn" onclick="startSection('接尾辞（語幹識別）')">接尾辞（語幹識別）</button>
+                        <button class="section-btn" onclick="startSection('接尾辞（品詞識別）')">接尾辞（品詞識別）</button>
+                        <button class="section-btn" onclick="startSection('TOEIC頻出単語 1-50')">TOEIC頻出単語 1-50</button>
+                        <button class="section-btn" onclick="startSection('TOEIC頻出単語 51-100')">TOEIC頻出単語 51-100</button>
+                    </div>
+                </div>
+                
+                <!-- その他 -->
+                <div class="category-section">
+                    <div class="category-title" onclick="toggleSection(this)"><span>その他</span><span class="toggle-arrow">▼</span></div>
+                    <div class="section-buttons" style="display: flex; flex-direction: column; gap: 10px;">
+                        <button class="section-btn" onclick="startSection('発音記号')">発音記号</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ========== 教材モード ========== -->
+        <div id="materialScreen" class="material-screen">
+            <div class="screen-header">
+                <div class="screen-title" id="materialTitle"></div>
+            </div>
+            <table class="material-table">
+                <thead>
+                    <tr>
+                        <th>単語</th>
+                        <th>意味</th>
+                        <th>発音/説明</th>
+                    </tr>
+                </thead>
+                <tbody id="materialTableBody">
+                </tbody>
+            </table>
+            <button class="answer-btn" onclick="startTest()">このセクションをテストする</button>
+            <button class="answer-btn" style="background-color: #95a5a6;" onclick="backToMenu()">メニューに戻る</button>
+        </div>
+        
+        <!-- ========== テストモード ========== -->
+        <div id="testScreen" class="test-screen">
+            <div class="progress-bar" id="progressBar"></div>
+            <div class="card-container">
+                <div class="card-content">
+                    <div class="card-word" id="cardWord"></div>
+                    <div class="card-part-of-speech" id="cardPartOfSpeech"></div>
+                    <div class="card-pronunciation" id="cardPronunciation"></div>
+                    <div id="answerArea" style="display: none;">
+                        <div class="card-divider"></div>
+                        <div class="card-meaning" id="cardMeaning"></div>
+                        <div class="card-hint" id="cardHint"></div>
+                    </div>
+                </div>
+            </div>
+            <button class="answer-btn" id="answerToggleBtn" onclick="toggleAnswer()">答えを表示</button>
+            <div id="judgmentArea" style="display: none;">
+                <div class="judgment-buttons">
+                    <button class="judgment-btn wrong-btn" onclick="recordWrong()">間違えた</button>
+                    <button class="judgment-btn correct-btn" onclick="recordCorrect()">覚えた</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ========== リザルト画面 ========== -->
+        <div id="resultScreen" class="result-screen">
+            <div class="result-card">
+                <div class="result-title">このラウンドの成績</div>
+                <div class="result-percentage" id="resultPercentage"></div>
+                <div class="result-buttons-group">
+                    <button class="result-btn" onclick="retryAll()">もう一回やる（全部）</button>
+                    <button class="result-btn secondary" id="retryWrongBtn" onclick="retryWrong()" style="display: none;">もう一回やる（間違えた問題だけ）</button>
+                    <button class="result-btn secondary" onclick="backToMenu()">メニューに戻る</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ========== フッター ========== -->
+        <div class="page-footer">
+            © GOLD英語学習 All Rights Reserved.
+        </div>
+    </div>
+    
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,960 @@
+    {
+        id: 84,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "attend",
+        partOfSpeech: "動詞",
+        pronunciation: "/əˈtend/",
+        meaning: "出席する、参加する",
+        hint: "【TOEIC頻出】meetings や training sessions への参加でよく出る。"
+    },
+    {
+        id: 85,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "arrange",
+        partOfSpeech: "動詞",
+        pronunciation: "/əˈreɪndʒ/",
+        meaning: "手配する、取り決める",
+        hint: "【TOEIC頻出】会議や配送の手配で使われる。"
+    },
+    {
+        id: 86,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "confirm",
+        partOfSpeech: "動詞",
+        pronunciation: "/kənˈfɜːrm/",
+        meaning: "確認する、確定する",
+        hint: "【TOEIC頻出】予約や予定を確認する文脈で登場。"
+    },
+    {
+        id: 87,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "cancel",
+        partOfSpeech: "動詞",
+        pronunciation: "/ˈkænsəl/",
+        meaning: "取り消す、キャンセルする",
+        hint: "【TOEIC頻出】予約や注文の変更でよく使われる。"
+    },
+    {
+        id: 88,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "postpone",
+        partOfSpeech: "動詞",
+        pronunciation: "/pəˈspoʊn/",
+        meaning: "延期する",
+        hint: "【TOEIC頻出】meeting や event を延期する場面で出る。"
+    },
+    {
+        id: 89,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "reschedule",
+        partOfSpeech: "動詞",
+        pronunciation: "/ˌriːˈskedʒuːl/",
+        meaning: "再予定を組む、再調整する",
+        hint: "【TOEIC頻出】会議や出荷の予定変更に頻出。"
+    },
+    {
+        id: 90,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "venue",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈvenjuː/",
+        meaning: "会場、場所",
+        hint: "【TOEIC頻出】conference や event の場所を説明する際に使われる。"
+    },
+    {
+        id: 91,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "conference",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈkɒnfərəns/",
+        meaning: "会議、カンファレンス",
+        hint: "【TOEIC頻出】business meetings や seminar の文脈で出題。"
+    },
+    {
+        id: 92,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "meeting",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈmiːtɪŋ/",
+        meaning: "会議、打ち合わせ",
+        hint: "【TOEIC頻出】schedule a meeting のような表現は定番。"
+    },
+    {
+        id: 93,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "reservation",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˌrezərˈveɪʃən/",
+        meaning: "予約",
+        hint: "【TOEIC頻出】hotel や restaurant での予約に関する出題が多い。"
+    },
+    {
+        id: 94,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "itinerary",
+        partOfSpeech: "名詞",
+        pronunciation: "/aɪˈtɪnərəri/",
+        meaning: "旅程、日程表",
+        hint: "【TOEIC頻出】travel plan や business trip の説明で使われる。"
+    },
+    {
+        id: 95,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "accommodation",
+        partOfSpeech: "名詞",
+        pronunciation: "/əˌkɒməˈdeɪʃən/",
+        meaning: "宿泊施設、収容",
+        hint: "【TOEIC頻出】hotel booking や lodging の話題で登場。"
+    },
+    {
+        id: 96,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "departure",
+        partOfSpeech: "名詞",
+        pronunciation: "/dɪˈpɑːrtʃər/",
+        meaning: "出発",
+        hint: "【TOEIC頻出】flight schedule や travel information で頻出。"
+    },
+    {
+        id: 97,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "arrival",
+        partOfSpeech: "名詞",
+        pronunciation: "/əˈraɪvəl/",
+        meaning: "到着",
+        hint: "【TOEIC頻出】arrival time や airport announcements に使われる。"
+    },
+    {
+        id: 98,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "boarding",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈbɔːrdɪŋ/",
+        meaning: "搭乗",
+        hint: "【TOEIC頻出】boarding pass や gate information に出る。"
+    },
+    {
+        id: 99,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "flight",
+        partOfSpeech: "名詞",
+        pronunciation: "/flaɪt/",
+        meaning: "飛行機便、フライト",
+        hint: "【TOEIC頻出】airline information や travel plan で出題される。"
+    },
+    {
+        id: 100,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "luggage",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈlʌɡɪdʒ/",
+        meaning: "手荷物、荷物",
+        hint: "【TOEIC頻出】airport や hotel の場面でよく出る。"
+    },
+    {
+        id: 101,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "passport",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈpæspɔːrt/",
+        meaning: "パスポート",
+        hint: "【TOEIC頻出】travel documents 関連の問題で頻出。"
+    },
+    {
+        id: 102,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "visa",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈviːzə/",
+        meaning: "ビザ",
+        hint: "【TOEIC頻出】international travel の文脈で登場。"
+    },
+    {
+        id: 103,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "customs",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈkʌstəmz/",
+        meaning: "税関",
+        hint: "【TOEIC頻出】airport や travel procedures の話題で使われる。"
+    },
+    {
+        id: 104,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "representative",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˌreprɪˈzentətɪv/",
+        meaning: "担当者、代表者",
+        hint: "【TOEIC頻出】customer support や sales の場面で出題される。"
+    },
+    {
+        id: 105,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "manager",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈmænɪdʒər/",
+        meaning: "管理者、マネージャー",
+        hint: "【TOEIC頻出】business structure や company roles で頻出。"
+    },
+    {
+        id: 106,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "supervisor",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈsuːpərvaɪzər/",
+        meaning: "監督者、上司",
+        hint: "【TOEIC頻出】workplace conversation でよく出る。"
+    },
+    {
+        id: 107,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "employee",
+        partOfSpeech: "名詞",
+        pronunciation: "/ɪmˈplɔɪiː/",
+        meaning: "従業員",
+        hint: "【TOEIC頻出】staff や company policy の文脈で使用。"
+    },
+    {
+        id: 108,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "employer",
+        partOfSpeech: "名詞",
+        pronunciation: "/ɪmˈplɔɪər/",
+        meaning: "雇用主、会社",
+        hint: "【TOEIC頻出】hiring や employment contract の話題で出る。"
+    },
+    {
+        id: 109,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "staff",
+        partOfSpeech: "名詞",
+        pronunciation: "/stæf/",
+        meaning: "職員、スタッフ",
+        hint: "【TOEIC頻出】hotel staff / office staff などで登場。"
+    },
+    {
+        id: 110,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "colleague",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈkɒliːɡ/",
+        meaning: "同僚",
+        hint: "【TOEIC頻出】business conversation でよく出る単語。"
+    },
+    {
+        id: 111,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "client",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈklaɪənt/",
+        meaning: "顧客、取引先",
+        hint: "【TOEIC頻出】customer と似た文脈で使われる。"
+    },
+    {
+        id: 112,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "applicant",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈæplɪkənt/",
+        meaning: "応募者",
+        hint: "【TOEIC頻出】job application や hiring process で登場。"
+    },
+    {
+        id: 113,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "candidate",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈkændɪdeɪt/",
+        meaning: "候補者、志願者",
+        hint: "【TOEIC頻出】interview や recruitment の場面で使われる。"
+    },
+    {
+        id: 114,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "application",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˌæplɪˈkeɪʃən/",
+        meaning: "申し込み、応募",
+        hint: "【TOEIC頻出】job application / application form の表現でよく出る。"
+    },
+    {
+        id: 115,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "interview",
+        partOfSpeech: "名詞/動詞",
+        pronunciation: "/ˈɪntərvjuː/",
+        meaning: "面接／面接する",
+        hint: "【TOEIC頻出】hiring の場面で頻出。"
+    },
+    {
+        id: 116,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "hire",
+        partOfSpeech: "動詞",
+        pronunciation: "/haɪər/",
+        meaning: "採用する",
+        hint: "【TOEIC頻出】recruitment や staffing の文脈に登場。"
+    },
+    {
+        id: 117,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "recruit",
+        partOfSpeech: "動詞",
+        pronunciation: "/rɪˈkruːt/",
+        meaning: "採用する、募集する",
+        hint: "【TOEIC頻出】new staff recruitment の表現で使われる。"
+    },
+    {
+        id: 118,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "training",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈtreɪnɪŋ/",
+        meaning: "研修、訓練",
+        hint: "【TOEIC頻出】employee training / staff development に登場。"
+    },
+    {
+        id: 119,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "seminar",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈsemɪnɑːr/",
+        meaning: "セミナー",
+        hint: "【TOEIC頻出】business event や training session で出題。"
+    },
+    {
+        id: 120,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "workshop",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈwɜːrkʃɒp/",
+        meaning: "ワークショップ、研修会",
+        hint: "【TOEIC頻出】practical training の場面でよく使われる。"
+    },
+    {
+        id: 121,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "proposal",
+        partOfSpeech: "名詞",
+        pronunciation: "/prəˈpoʊzəl/",
+        meaning: "提案、企画書",
+        hint: "【TOEIC頻出】project proposal や contract discussions に出る。"
+    },
+    {
+        id: 122,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "budget",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈbʌdʒɪt/",
+        meaning: "予算",
+        hint: "【TOEIC頻出】finance や project planning の場面で頻出。"
+    },
+    {
+        id: 123,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "expense",
+        partOfSpeech: "名詞",
+        pronunciation: "/ɪkˈspens/",
+        meaning: "費用、経費",
+        hint: "【TOEIC頻出】travel expenses / expense report の文脈で使われる。"
+    },
+    {
+        id: 124,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "invoice",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈɪnvɔɪs/",
+        meaning: "請求書",
+        hint: "【TOEIC頻出】payment と関連する業務用語。"
+    },
+    {
+        id: 125,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "receipt",
+        partOfSpeech: "名詞",
+        pronunciation: "/rɪˈsiːt/",
+        meaning: "領収書",
+        hint: "【TOEIC頻出】purchase / refund の場面で出題。"
+    },
+    {
+        id: 126,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "refund",
+        partOfSpeech: "名詞/動詞",
+        pronunciation: "/ˈriːfʌnd/",
+        meaning: "払い戻し、返金する",
+        hint: "【TOEIC頻出】customer service や return policy で登場。"
+    },
+    {
+        id: 127,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "payment",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈpeɪmənt/",
+        meaning: "支払い",
+        hint: "【TOEIC頻出】invoice payment / payment due などで使われる。"
+    },
+    {
+        id: 128,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "salary",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈsæləri/",
+        meaning: "給与、給料",
+        hint: "【TOEIC頻出】employment conditions に関する問題で頻出。"
+    },
+    {
+        id: 129,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "bonus",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈboʊnəs/",
+        meaning: "ボーナス、特典",
+        hint: "【TOEIC頻出】salary package や benefits の文脈で出る。"
+    },
+    {
+        id: 130,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "benefit",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈbenɪfɪt/",
+        meaning: "給付、福利厚生",
+        hint: "【TOEIC頻出】employee benefits / health insurance で登場。"
+    },
+    {
+        id: 131,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "contract",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈkɒntrækt/",
+        meaning: "契約",
+        hint: "【TOEIC頻出】agreement / contract terms の文脈で使われる。"
+    },
+    {
+        id: 132,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "agreement",
+        partOfSpeech: "名詞",
+        pronunciation: "/əˈɡriːmənt/",
+        meaning: "合意、協定",
+        hint: "【TOEIC頻出】contract negotiation の場面で頻出。"
+    },
+    {
+        id: 133,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "policy",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈpɒləsi/",
+        meaning: "方針、規則",
+        hint: "【TOEIC頻出】company policy / return policy の表現で使われる。"
+    },
+    {
+        id: 134,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "insurance",
+        partOfSpeech: "名詞",
+        pronunciation: "/ɪnˈʃʊərəns/",
+        meaning: "保険",
+        hint: "【TOEIC頻出】travel insurance / health insurance の文脈に登場。"
+    },
+    {
+        id: 135,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "warranty",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈwɒrənti/",
+        meaning: "保証、保障",
+        hint: "【TOEIC頻出】product warranty / service warranty に使われる。"
+    },
+    {
+        id: 136,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "purchase",
+        partOfSpeech: "名詞/動詞",
+        pronunciation: "/ˈpɜːrtʃəs/",
+        meaning: "購入、購入する",
+        hint: "【TOEIC頻出】order / purchase order の表現でよく出る。"
+    },
+    {
+        id: 137,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "order",
+        partOfSpeech: "名詞/動詞",
+        pronunciation: "/ˈɔːrdər/",
+        meaning: "注文、命じる",
+        hint: "【TOEIC頻出】order details / place an order に出題。"
+    },
+    {
+        id: 138,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "shipment",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈʃɪpmənt/",
+        meaning: "出荷、発送",
+        hint: "【TOEIC頻出】delivery schedule / shipment status で登場。"
+    },
+    {
+        id: 139,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "delivery",
+        partOfSpeech: "名詞",
+        pronunciation: "/dɪˈlɪvəri/",
+        meaning: "配達、納品",
+        hint: "【TOEIC頻出】shipment と関連する文脈で出る。"
+    },
+    {
+        id: 140,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "inventory",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈɪnvəntri/",
+        meaning: "在庫、棚卸",
+        hint: "【TOEIC頻出】stock management / inventory check に出題。"
+    },
+    {
+        id: 141,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "stock",
+        partOfSpeech: "名詞/動詞",
+        pronunciation: "/stɒk/",
+        meaning: "在庫、蓄える",
+        hint: "【TOEIC頻出】inventory management の話題で頻出。"
+    },
+    {
+        id: 142,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "supplier",
+        partOfSpeech: "名詞",
+        pronunciation: "/səˈplaɪər/",
+        meaning: "供給業者、仕入先",
+        hint: "【TOEIC頻出】purchase order や supply chain で登場。"
+    },
+    {
+        id: 143,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "vendor",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈvendər/",
+        meaning: "販売業者、ベンダー",
+        hint: "【TOEIC頻出】supplier と同じような業務用語。"
+    },
+    {
+        id: 144,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "manufacturer",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˌmænjəˈfæktʃərər/",
+        meaning: "製造業者",
+        hint: "【TOEIC頻出】product source / manufacturing process の文脈で出る。"
+    },
+    {
+        id: 145,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "product",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈprɒdʌkt/",
+        meaning: "製品、商品",
+        hint: "【TOEIC頻出】product launch / product line で頻出。"
+    },
+    {
+        id: 146,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "service",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈsɜːrvɪs/",
+        meaning: "サービス",
+        hint: "【TOEIC頻出】customer service / after-sales service の文脈で登場。"
+    },
+    {
+        id: 147,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "quality",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈkwɒləti/",
+        meaning: "品質、質",
+        hint: "【TOEIC頻出】quality control / quality assurance に頻出。"
+    },
+    {
+        id: 148,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "research",
+        partOfSpeech: "名詞/動詞",
+        pronunciation: "/rɪˈsɜːrtʃ/",
+        meaning: "調査、研究する",
+        hint: "【TOEIC頻出】market research / research report に使われる。"
+    },
+    {
+        id: 149,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "development",
+        partOfSpeech: "名詞",
+        pronunciation: "/dɪˈveləpmənt/",
+        meaning: "開発、成長",
+        hint: "【TOEIC頻出】product development / career development の文脈。"
+    },
+    {
+        id: 150,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "production",
+        partOfSpeech: "名詞",
+        pronunciation: "/prəˈdʌkʃən/",
+        meaning: "生産、製造",
+        hint: "【TOEIC頻出】production schedule / factory production で登場。"
+    },
+    {
+        id: 151,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "maintenance",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈmeɪntənəns/",
+        meaning: "維持、保守",
+        hint: "【TOEIC頻出】equipment maintenance / facility maintenance に出る。"
+    },
+    {
+        id: 152,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "repair",
+        partOfSpeech: "名詞/動詞",
+        pronunciation: "/rɪˈpeər/",
+        meaning: "修理、修理する",
+        hint: "【TOEIC頻出】repair service / equipment repair の文脈で頻出。"
+    },
+    {
+        id: 153,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "facility",
+        partOfSpeech: "名詞",
+        pronunciation: "/fəˈsɪləti/",
+        meaning: "施設",
+        hint: "【TOEIC頻出】office facility / conference facility に使われる。"
+    },
+    {
+        id: 154,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "office",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈɒfɪs/",
+        meaning: "事務所、オフィス",
+        hint: "【TOEIC頻出】office location / office hours の表現で出題。"
+    },
+    {
+        id: 155,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "branch",
+        partOfSpeech: "名詞",
+        pronunciation: "/bræntʃ/",
+        meaning: "支店、支部",
+        hint: "【TOEIC頻出】branch office / regional branch の文脈で登場。"
+    },
+    {
+        id: 156,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "headquarters",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˌhedˈkwɔːrtərz/",
+        meaning: "本社、本部",
+        hint: "【TOEIC頻出】company structure の話題でよく出る。"
+    },
+    {
+        id: 157,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "department",
+        partOfSpeech: "名詞",
+        pronunciation: "/dɪˈpɑːrtmənt/",
+        meaning: "部門、部署",
+        hint: "【TOEIC頻出】sales department / accounting department で頻出。"
+    },
+    {
+        id: 158,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "division",
+        partOfSpeech: "名詞",
+        pronunciation: "/dɪˈvɪʒən/",
+        meaning: "部門、課",
+        hint: "【TOEIC頻出】company division / business division の表現で使用。"
+    },
+    {
+        id: 159,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "deadline",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈdedlaɪn/",
+        meaning: "締め切り、期限",
+        hint: "【TOEIC頻出】project deadline / submission deadline に出る。"
+    },
+    {
+        id: 160,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "priority",
+        partOfSpeech: "名詞",
+        pronunciation: "/praɪˈɒrəti/",
+        meaning: "優先事項、優先順位",
+        hint: "【TOEIC頻出】urgent task / set a priority の文脈で登場。"
+    },
+    {
+        id: 161,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "project",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈprɒdʒekt/",
+        meaning: "プロジェクト、計画",
+        hint: "【TOEIC頻出】project team / project timeline で頻出。"
+    },
+    {
+        id: 162,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "assignment",
+        partOfSpeech: "名詞",
+        pronunciation: "/əˈsaɪnmənt/",
+        meaning: "課題、任務",
+        hint: "【TOEIC頻出】work assignment / special assignment の文脈。"
+    },
+    {
+        id: 163,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "task",
+        partOfSpeech: "名詞",
+        pronunciation: "/tæsk/",
+        meaning: "仕事、課題",
+        hint: "【TOEIC頻出】daily task / complete the task などで使われる。"
+    },
+    {
+        id: 164,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "report",
+        partOfSpeech: "名詞/動詞",
+        pronunciation: "/rɪˈpɔːrt/",
+        meaning: "報告書、報告する",
+        hint: "【TOEIC頻出】monthly report / report to a manager で登場。"
+    },
+    {
+        id: 165,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "document",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈdɒkjʊmənt/",
+        meaning: "書類、文書",
+        hint: "【TOEIC頻出】important documents / document review の文脈。"
+    },
+    {
+        id: 166,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "file",
+        partOfSpeech: "名詞/動詞",
+        pronunciation: "/faɪl/",
+        meaning: "ファイル、ファイルする",
+        hint: "【TOEIC頻出】file a report / maintain files に使われる。"
+    },
+    {
+        id: 167,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "record",
+        partOfSpeech: "名詞/動詞",
+        pronunciation: "/ˈrekɔːrd/",
+        meaning: "記録、記録する",
+        hint: "【TOEIC頻出】keep records / sales record の話題。"
+    },
+    {
+        id: 168,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "database",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈdeɪtəbeɪs/",
+        meaning: "データベース",
+        hint: "【TOEIC頻出】customer database / update the database に登場。"
+    },
+    {
+        id: 169,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "software",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈsɒftwɛər/",
+        meaning: "ソフトウェア",
+        hint: "【TOEIC頻出】software update / install software の文脈。"
+    },
+    {
+        id: 170,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "hardware",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈhɑːrdwer/",
+        meaning: "ハードウェア",
+        hint: "【TOEIC頻出】computer hardware / hardware support で出題。"
+    },
+    {
+        id: 171,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "network",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈnetwɜːrk/",
+        meaning: "ネットワーク、回路",
+        hint: "【TOEIC頻出】IT support / network connection の話題。"
+    },
+    {
+        id: 172,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "update",
+        partOfSpeech: "名詞/動詞",
+        pronunciation: "/ʌpˈdeɪt/",
+        meaning: "更新、更新する",
+        hint: "【TOEIC頻出】software update / status update に使われる。"
+    },
+    {
+        id: 173,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "upgrade",
+        partOfSpeech: "名詞/動詞",
+        pronunciation: "/ʌpˈɡreɪd/",
+        meaning: "アップグレード、改良する",
+        hint: "【TOEIC頻出】system upgrade / service upgrade で登場。"
+    },
+    {
+        id: 174,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "installation",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˌɪnstəˈleɪʃən/",
+        meaning: "設置、導入",
+        hint: "【TOEIC頻出】equipment installation / software installation の文脈。"
+    },
+    {
+        id: 175,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "support",
+        partOfSpeech: "名詞/動詞",
+        pronunciation: "/səˈpɔːrt/",
+        meaning: "支援、サポートする",
+        hint: "【TOEIC頻出】customer support / technical support で頻出。"
+    },
+    {
+        id: 176,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "feedback",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˈfiːdbæk/",
+        meaning: "フィードバック、意見",
+        hint: "【TOEIC頻出】performance feedback / customer feedback に登場。"
+    },
+    {
+        id: 177,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "survey",
+        partOfSpeech: "名詞/動詞",
+        pronunciation: "/ˈsɜːrveɪ/",
+        meaning: "調査、調査する",
+        hint: "【TOEIC頻出】customer survey / survey results で出題。"
+    },
+    {
+        id: 178,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "questionnaire",
+        partOfSpeech: "名詞",
+        pronunciation: "/ˌkwestʃəˈneər/",
+        meaning: "アンケート、質問票",
+        hint: "【TOEIC頻出】survey questionnaire / fill out a questionnaire の文脈。"
+    },
+    {
+        id: 179,
+        type: "vocab",
+        category: "TOEIC頻出単語",
+        word: "promotion",
+        partOfSpeech: "名詞",
+        pronunciation: "/prəˈmoʊʃən/",
+        meaning: "昇進、販促",
+        hint: "【TOEIC頻出】job promotion / promotional campaign でよく使われる。"
+    }
