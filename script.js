@@ -46,6 +46,13 @@ function getBankBySection(sectionName) {
         'TOEIC頻出単語': TOEIC_VOCAB,
         'TOEIC頻出単語 1-50': TOEIC_VOCAB,
         'TOEIC頻出単語 51-100': TOEIC_VOCAB,
+        'TOEIC頻出単語 101-150': TOEIC_VOCAB,
+        'TOEIC頻出単語 151-200': TOEIC_VOCAB,
+        'TOEIC頻出単語 201-250': TOEIC_VOCAB,
+        'TOEIC頻出単語 201-250': TOEIC_VOCAB,
+        'TOEIC頻出単語 251-300': TOEIC_VOCAB,
+        'TOEIC頻出単語 301-350': TOEIC_VOCAB,
+        'TOEIC頻出単語 351-400': TOEIC_VOCAB,
         '接頭辞（語幹識別）': AFFIX_BANK,
         '接尾辞（語幹識別）': AFFIX_BANK,
         '接尾辞（品詞識別）': AFFIX_BANK,
@@ -64,6 +71,18 @@ function startSection(sectionName) {
             currentData = currentData.slice(0, 50);
         } else if (sectionName.endsWith('51-100')) {
             currentData = currentData.slice(50, 100);
+        } else if (sectionName.endsWith('101-150')) {
+            currentData = currentData.slice(101, 150);
+        } else if (sectionName.endsWith('151-200')) {
+            currentData = currentData.slice(151, 200);
+        } else if (sectionName.endsWith('201-250')) {
+            currentData = currentData.slice(201, 250);
+        }else if (sectionName.endsWith('251-300')) {
+            currentData = currentData.slice(251, 300);
+        }else if (sectionName.endsWith('301-350')) {
+            currentData = currentData.slice(301, 350);
+        }else if (sectionName.endsWith('351-400')) {
+            currentData = currentData.slice(351, 400);
         }
     } else {
         currentData = bank.filter(item => item.category === sectionName);
