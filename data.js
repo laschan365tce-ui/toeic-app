@@ -1,70 +1,4 @@
-// ========== TOEIC 学習データベース ==========
-const VOCAB_BANK = [
-    // --- 句動詞：Put ---
-    {
-        id: 1,
-        type: "phrase",
-        category: "Put",
-        word: "put off",
-        partOfSpeech: "句動詞",
-        pronunciation: "/pʊt ɔːf/",
-        meaning: "〜を延期する、遅らせる",
-        hint: "【イメージ】予定を本来の場所から「離れた場所（off）」へ「置く（put）」。= postpone"
-    },
-    {
-        id: 2,
-        type: "phrase",
-        category: "Put",
-        word: "put on",
-        partOfSpeech: "句動詞",
-        pronunciation: "/pʊt ɑːn/",
-        meaning: "〜を着る、身につける",
-        hint: "【イメージ】体に何かを「置く（put）」動作。状態を表す wear との識別問題に注意。"
-    },
-    {
-        id: 3,
-        type: "phrase",
-        category: "Put",
-        word: "put up with",
-        partOfSpeech: "句動詞",
-        pronunciation: "/pʊt ʌp wɪð/",
-        meaning: "〜に耐える、我慢する",
-        hint: "【TOEIC頻出】tolerate と同義。ビジネス場面で「つまらない状況に耐える」という文脈で出題される。"
-    },
-    // --- 句動詞：Run ---
-    {
-        id: 10,
-        type: "phrase",
-        category: "Run",
-        word: "run into",
-        partOfSpeech: "句動詞",
-        pronunciation: "/rʌn ˈɪntuː/",
-        meaning: "〜にばったり会う、衝突する",
-        hint: "【イメージ】走っている（run）最中に、ある空間の「中へ（into）」飛び込んでぶつかるイメージ。"
-    },
-    {
-        id: 11,
-        type: "phrase",
-        category: "Run",
-        word: "run out of",
-        partOfSpeech: "句動詞",
-        pronunciation: "/rʌn aʊt əv/",
-        meaning: "〜が尽きる、足りなくなる",
-        hint: "【TOEIC頻出】「ガソリンが尽きた」など、リソースの枯渇を表す。★パート5の空欄問題でよく出題。"
-    },
-    {
-        id: 12,
-        type: "phrase",
-        category: "Run",
-        word: "run by",
-        partOfSpeech: "句動詞",
-        pronunciation: "/rʌn baɪ/",
-        meaning: "〜に相談する、提案する",
-        hint: "【ビジネス用法】「That idea sounds good. Let me run it by my manager.」= 上司に相談させてください。"
-    },
-    // TOEIC頻出単語は toeic_vocab.js に移動しました
-];
-
+// ========== TOEIC 学習データベース（拡張版） ==========
 const AFFIX_BANK = [
     // --- 語彙・文法：接頭辞（語幹識別） ---
     {
@@ -109,6 +43,106 @@ const AFFIX_BANK = [
             "unhappy（不幸な）"
         ]
     },
+    // 【追加】TOEIC 700点レベル：接頭辞（語幹識別）
+    {
+        id: 53,
+        type: "prefix",
+        category: "接頭辞（語幹識別）",
+        word: "pro-",
+        partOfSpeech: "接頭辞",
+        pronunciation: "/proʊ/",
+        meaning: "「前へ」「賛成して」",
+        examples: [
+            "promote（昇進させる、促進する）",
+            "proceed（前進する、進める）",
+            "propose（提案する）"
+        ]
+    },
+    {
+        id: 54,
+        type: "prefix",
+        category: "接頭辞（語幹識別）",
+        word: "con- / com- / co-",
+        partOfSpeech: "接頭辞",
+        pronunciation: "/kən/ /kəm/",
+        meaning: "「共に」「完全に」",
+        examples: [
+            "collaborate（共同で作業する）",
+            "confirm（確認する）",
+            "compromise（妥協する、妥協）"
+        ]
+    },
+    {
+        id: 55,
+        type: "prefix",
+        category: "接頭辞（語幹識別）",
+        word: "de-",
+        partOfSpeech: "接頭辞",
+        pronunciation: "/dɪ/",
+        meaning: "「下に」「離れて」「否定」",
+        examples: [
+            "decrease（減少する、減少）",
+            "delay（遅らせる、遅延）",
+            "decline（衰退する、断る）"
+        ]
+    },
+    {
+        id: 56,
+        type: "prefix",
+        category: "接頭辞（語幹識別）",
+        word: "sub-",
+        partOfSpeech: "接頭辞",
+        pronunciation: "/sʌb/",
+        meaning: "「下に」「下位の」「副」",
+        examples: [
+            "submit（提出する＝下に出す）",
+            "subordinate（部下、下位の）",
+            "subcontract（下請け契約する）"
+        ]
+    },
+    {
+        id: 57,
+        type: "prefix",
+        category: "接頭辞（語幹識別）",
+        word: "in- / im- / il- / ir-",
+        partOfSpeech: "接頭辞",
+        pronunciation: "/ɪn/ /ɪm/",
+        meaning: "「中へ」「〜でない（否定）」",
+        examples: [
+            "incomplete（不完全な）",
+            "implement（実行する、道具）",
+            "innovative（革新的な）"
+        ]
+    },
+    {
+        id: 58,
+        type: "prefix",
+        category: "接頭辞（語幹識別）",
+        word: "ex-",
+        partOfSpeech: "接頭辞",
+        pronunciation: "/eks/",
+        meaning: "「外に」「前の」",
+        examples: [
+            "expand（拡大する）",
+            "executive（重役、執行権のある）",
+            "exceed（超える）"
+        ]
+    },
+    {
+        id: 59,
+        type: "prefix",
+        category: "接頭辞（語幹識別）",
+        word: "inter-",
+        partOfSpeech: "接頭辞",
+        pronunciation: "/ɪntər/",
+        meaning: "「〜の間」「相互に」",
+        examples: [
+            "international（国際的な）",
+            "interview（面接、インタビュー）",
+            "interact（相互に作用する）"
+        ]
+    },
+
     // --- 語彙・文法：接尾辞（語幹識別） ---
     {
         id: 60,
@@ -152,6 +186,50 @@ const AFFIX_BANK = [
             "responsible（責任のある）"
         ]
     },
+    // 【追加】TOEIC 700点レベル：接尾辞（語幹識別）
+    {
+        id: 63,
+        type: "suffix_meaning",
+        category: "接尾辞（語幹識別）",
+        word: "-ee",
+        partOfSpeech: "接尾辞",
+        pronunciation: "/iː/",
+        meaning: "「〜される人」（行為を受ける側）",
+        examples: [
+            "employee（従業員 ※雇われる人）",
+            "interviewee（面接を受ける人）",
+            "trainee（研修生 ※訓練を受ける人）"
+        ]
+    },
+    {
+        id: 64,
+        type: "suffix_meaning",
+        category: "接尾辞（語幹識別）",
+        word: "-en",
+        partOfSpeech: "接尾辞",
+        pronunciation: "/ən/",
+        meaning: "「〜にする」「〜になる」（動詞化）",
+        examples: [
+            "shorten（短縮する）",
+            "broaden（広げる ※視野などを）",
+            "strengthen（強化する）"
+        ]
+    },
+    {
+        id: 65,
+        type: "suffix_meaning",
+        category: "接尾辞（語幹識別）",
+        word: "-free",
+        partOfSpeech: "接尾辞",
+        pronunciation: "/friː/",
+        meaning: "「〜のない」「〜を免れた」",
+        examples: [
+            "duty-free（免税の）",
+            "interest-free（無利子の）",
+            "trouble-free（トラブルのない）"
+        ]
+    },
+
     // --- 語彙・文法：接尾辞（品詞識別） ---
     {
         id: 70,
@@ -194,148 +272,150 @@ const AFFIX_BANK = [
             "carefully（注意深く）",
             "recently（最近）"
         ]
-    }
-];
+    },
+    // 【追加】TOEIC 700点レベル：接尾辞（品詞識別・パート5対策に直結）
+    {
+        id: 73,
+        type: "suffix_part",
+        category: "接尾辞（品詞識別）",
+        word: "-ty / -ity",
+        partOfSpeech: "接尾辞（名詞化）",
+        pronunciation: "/ti/ /əti/",
+        meaning: "「性質」「状態」（名詞形）",
+        examples: [
+            "security（安全、警備）",
+            "availability（利用可能性、空き状況）",
+            "productivity（生産性）"
+        ]
+    },
+    {
+        id: 74,
+        type: "suffix_part",
+        category: "接尾辞（品詞識別）",
+        word: "-ive",
+        partOfSpeech: "接尾辞（形容詞化）",
+        pronunciation: "/ɪv/",
+        meaning: "「〜の性質を持つ」「〜がちな」（形容詞形）",
+        examples: [
+            "alternative（代わりの、選択肢 ※名詞もある）",
+            "effective（効果的な）",
+            "competitive（競争力のある）"
+        ]
+    },
+    {
+        id: 75,
+        type: "suffix_part",
+        category: "接尾辞（品詞識別）",
+        word: "-ize / -ise",
+        partOfSpeech: "接尾辞（動詞化）",
+        pronunciation: "/aɪz/",
+        meaning: "「〜化する」「〜にする」（動詞形）",
+        examples: [
+            "minimize（最小限に抑える）",
+            "optimize（最適化する）",
+            "authorize // 権限を与える"
+        ]
+    },
+    {
+        id: 76,
+        type: "prefix",
+        category: "接頭辞（語幹識別）",
+        word: "over-",
+        partOfSpeech: "接頭辞",
+        pronunciation: "/ˈoʊvər/",
+        meaning: "「過剰に」「超えて」「上から」",
+        examples: [
+            "oversee（監督する＝上から見る ※superviseと同義）",
+            "overdue（期限が過ぎた ※請求書や返却物で頻出）",
+            "overestimate（過大評価する）"
+        ]
+    },
+    {
+        id: 77,
+        type: "prefix",
+        category: "接頭辞（語幹識別）",
+        word: "counter-",
+        partOfSpeech: "接頭辞",
+        pronunciation: "/ˈkaʊntər/",
+        meaning: "「反対の」「対抗する」",
+        examples: [
+            "counterpart（対応する人・物 ※他社の同等の役職の人などを指す）",
+            "countermeasure（対抗策、対応策）",
+            "counteroffer（対案、カウンターオファー）"
+        ]
+    },
+    {
+        id: 78,
+        type: "prefix",
+        category: "接頭辞（語幹識別）",
+        word: "mis-",
+        partOfSpeech: "接頭辞",
+        pronunciation: "/mɪs/",
+        meaning: "「誤った」「悪く」",
+        examples: [
+            "misplace（置き忘れる、紛失する ※書類を無くした文脈で頻出）",
+            "misinterpret（誤解する、誤って解釈する）",
+            "mislead（誤解を招く、迷わせる）"
+        ]
+    },
 
-const PHONETIC_BANK = [
+    // --- 語彙・文法：接尾辞（700点レベルの職務・契約文脈） ---
     {
-        id: 201,
-        type: "phonetic",
-        category: "発音記号",
-        symbol: "æ",
-        name: "母音",
-        description: "口を左右に大きく開けて「ア」と発音する（日本語の『ア』より明るい音）",
-        howToPronounce: "「ア」と「エ」の中間音",
+        id: 79,
+        type: "suffix_meaning",
+        category: "接尾辞（語幹識別）",
+        word: "-ship",
+        partOfSpeech: "接尾辞（名詞化）",
+        pronunciation: "/ʃɪp/",
+        meaning: "「状態」「地位」「資格」「関係」",
         examples: [
-            { word: "cat", ipa: "/kæt/" },
-            { word: "apple", ipa: "/ˈæpl/" },
-            { word: "bag", ipa: "/bæg/" }
+            "leadership（統率力）",
+            "partnership（提携、共同経営）",
+            "ownership（所有権 ※ビジネスで主導権を持つニュアンス）"
+        ]
+    },
+
+    // --- 語彙・文法：接尾辞（品詞識別：700点レベルの最大の罠） ---
+    {
+        id: 80,
+        type: "suffix_part",
+        category: "接尾辞（品詞識別）",
+        word: "-al",
+        partOfSpeech: "接尾辞（形容詞化／名詞化の罠）",
+        pronunciation: "/l/",
+        meaning: "「〜の（形容詞）」または「〜すること（名詞）」",
+        examples: [
+            "proposal（提案 ※形は形容詞っぽいのに【名詞】。超頻出）",
+            "professional（専門的な／専門職 ※形容詞・名詞の両方）",
+            "approval（承認 ※【名詞】。上司の承認などの文脈）"
         ]
     },
     {
-        id: 202,
-        type: "phonetic",
-        category: "発音記号",
-        symbol: "ə",
-        name: "母音（シュワー）",
-        description: "TOEIC頻出！最も多く出現する音。アクセントのない音節で使われる。",
-        howToPronounce: "「ア」と「イ」の中間のぼやけた音",
+        id: 81,
+        type: "suffix_part",
+        category: "接尾辞（品詞識別）",
+        word: "-ant / -ent",
+        partOfSpeech: "接尾辞（人・物名詞／形容詞）",
+        pronunciation: "/ənt/",
+        meaning: "「〜する人・物」「〜の性質の」",
         examples: [
-            { word: "about", ipa: "/əˈbaʊt/" },
-            { word: "banana", ipa: "/bəˈnænə/" },
-            { word: "sofa", ipa: "/ˈsoʊfə/" }
+            "consultant（コンサルタント ※人名詞）",
+            "applicant（応募者 ※求人求職文脈の最頻出名詞）",
+            "efficient（効率的な ※形容詞）"
         ]
     },
     {
-        id: 203,
-        type: "phonetic",
-        category: "発音記号",
-        symbol: "ɪ",
-        name: "母音",
-        description: "「イ」と「ウ」の中間。/i:/ より短くてぼやけた音。",
-        howToPronounce: "短い「イ」の音",
+        id: 82,
+        type: "suffix_part",
+        category: "接尾辞（品詞識別）",
+        word: "-ance / -ence",
+        partOfSpeech: "接尾辞（名詞化）",
+        pronunciation: "/əns/",
+        meaning: "「性質」「状態」「行為」（名詞形）",
         examples: [
-            { word: "sit", ipa: "/sɪt/" },
-            { word: "business", ipa: "/ˈbɪznəs/" },
-            { word: "kit", ipa: "/kɪt/" }
-        ]
-    },
-    {
-        id: 204,
-        type: "phonetic",
-        category: "発音記号",
-        symbol: "i:",
-        name: "母音",
-        description: "日本語の『イー』に近い。:（コロン）は「長音」を示す。",
-        howToPronounce: "長く伸ばした「イ」の音",
-        examples: [
-            { word: "see", ipa: "/si:/" },
-            { word: "key", ipa: "/ki:/" },
-            { word: "beach", ipa: "/bi:tʃ/" }
-        ]
-    },
-    {
-        id: 205,
-        type: "phonetic",
-        category: "発音記号",
-        symbol: "ʊ",
-        name: "母音",
-        description: "「ウ」と「オ」の中間。/u:/ より短い。",
-        howToPronounce: "短い「ウ」の音",
-        examples: [
-            { word: "book", ipa: "/bʊk/" },
-            { word: "put", ipa: "/pʊt/" },
-            { word: "look", ipa: "/lʊk/" }
-        ]
-    },
-    {
-        id: 206,
-        type: "phonetic",
-        category: "発音記号",
-        symbol: "u:",
-        name: "母音",
-        description: "日本語の『ウー』に近い。唇を丸くして発音。",
-        howToPronounce: "長く伸ばした「ウ」の音",
-        examples: [
-            { word: "blue", ipa: "/blu:/" },
-            { word: "food", ipa: "/fu:d/" },
-            { word: "school", ipa: "/sku:l/" }
-        ]
-    },
-    {
-        id: 207,
-        type: "phonetic",
-        category: "発音記号",
-        symbol: "ɔ:",
-        name: "母音",
-        description: "唇を丸くして、日本語の『オー』より暗く発音。",
-        howToPronounce: "長く伸ばした「オ」の音",
-        examples: [
-            { word: "door", ipa: "/dɔ:/" },
-            { word: "water", ipa: "/ˈwɔ:tə/" },
-            { word: "thought", ipa: "/θɔ:t/" }
-        ]
-    },
-    {
-        id: 208,
-        type: "phonetic",
-        category: "発音記号",
-        symbol: "ɑ:",
-        name: "母音",
-        description: "口を大きく開いて、日本語の『ア』より奥から発音。",
-        howToPronounce: "長く伸ばした「ア」の音（イギリス英語）",
-        examples: [
-            { word: "car", ipa: "/kɑ:/" },
-            { word: "park", ipa: "/pɑ:k/" },
-            { word: "heart", ipa: "/hɑ:t/" }
-        ]
-    },
-    {
-        id: 209,
-        type: "phonetic",
-        category: "発音記号",
-        symbol: "θ",
-        name: "子音",
-        description: "舌を上下の歯で軽くかみながら「ス」と発音。日本語にない音。",
-        howToPronounce: "「スの音」と「セの音」を混ぜたような音",
-        examples: [
-            { word: "think", ipa: "/θɪŋk/" },
-            { word: "thank", ipa: "/θæŋk/" },
-            { word: "three", ipa: "/θri:/" }
-        ]
-    },
-    {
-        id: 210,
-        type: "phonetic",
-        category: "発音記号",
-        symbol: "ð",
-        name: "子音",
-        description: "舌を上下の歯で軽くかみながら「ズ」と発音。θ の有声版。",
-        howToPronounce: "「ズの音」と「ゼの音」を混ぜたような音",
-        examples: [
-            { word: "this", ipa: "/ðɪs/" },
-            { word: "that", ipa: "/ðæt/" },
-            { word: "the", ipa: "/ðə/" }
+            "performance（業績、実績、公演）",
+            "compliance（法令遵守、順応）",
+            "maintenance（保守、管理、メンテナンス）"
         ]
     }
 ];
