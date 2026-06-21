@@ -43,6 +43,13 @@ function getBankBySection(sectionName) {
     const sectionToBank = {
         'Put': VOCAB_BANK,
         'Run': VOCAB_BANK,
+        'Call': VOCAB_BANK,
+        'Set': VOCAB_BANK,
+        'Bring': VOCAB_BANK,
+        'Look': VOCAB_BANK,
+        'Fill+Carry+Turn': VOCAB_BANK,
+        'Three-Word': VOCAB_BANK,
+        'Other': VOCAB_BANK,
         'TOEIC頻出単語': TOEIC_VOCAB,
         'TOEIC頻出単語 1-50': TOEIC_VOCAB,
         'TOEIC頻出単語 51-100': TOEIC_VOCAB,
